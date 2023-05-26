@@ -1,0 +1,14 @@
+:root {
+  /* primary */
+  --primary-blue: #1e2a52;
+  --primary-bright_grey: #7782a2;
+  --primary-md_grey: #b4bcd3;
+
+  /* background-color */
+  --base-border: #a4aaba;
+  --card-container-bg: #eff4f8;
+
+  /* fields */
+  --field-bg: #f9fafc;
+  --field-active: #025eff;
+}

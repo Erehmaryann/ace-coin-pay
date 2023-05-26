@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow-x: none;
+}
+
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  background: transparent;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  background: transparent;
+}
+
+/* Firefox */
+input[type="password"] {
+  -moz-appearance: textfield;
+  background: transparent;
+}
