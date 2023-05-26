@@ -139,7 +139,7 @@ const Form = () => {
             type="password"
             autoComplete="off"
             placeholder="......"
-            className="w-full placeholder:font-semibold placeholder:text-[83px] placeholder:text-primary_blue"
+            className="w-full placeholder:font-semibold xl:placeholder:text-[83px] placeholder:text-primary_blue"
             trailingIcon={
               <img
                 src={Dots}

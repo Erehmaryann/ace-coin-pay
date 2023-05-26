@@ -7,7 +7,7 @@ import PaymentContainer from "./payment-container";
 
 const Home = () => {
   return (
-    <div className="relative xl:w-[83%] w-[90%] h-auto bg-white xl:h-[73%] lg:px-[68px] pb-12 px-3">
+    <div className="relative xl:w-[83%] w-[90%] h-auto bg-white xl:h-[73%] lg:my-0 my-8 lg:px-[68px] pb-12 px-3">
       {/* Close Icon Wrapper */}
       <div className="absolute right-0">
         <button
