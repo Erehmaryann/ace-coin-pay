@@ -15,7 +15,7 @@ const Form = () => {
   return (
     <form>
       <div>
-        <div className="flex items-center justify-between lg:mb-[23px] mb-4">
+        <div className="flex lg:items-center items-start justify-between lg:mb-[23px] mb-4">
           <div>
             <Text
               className="font-semibold text-primary_blue lg:text-[19px] text-sm lg:pb-2 pb-[6px]"
@@ -104,7 +104,7 @@ const Form = () => {
           {/* Render the CustomInput component */}
           <Input
             type="number"
-            className="w-[calc(50%-16px)] placeholder:font-semibold placeholder:lg:text-lg placeholder:text-primary_blue"
+            className="w-[calc(50%-20px)] placeholder:font-semibold placeholder:lg:text-lg placeholder:text-primary_blue"
             placeholder="09"
           />
           <Text
@@ -115,7 +115,7 @@ const Form = () => {
           </Text>
           <Input
             type="number"
-            className="w-[calc(50%-16px)] placeholder:font-semibold placeholder:lg:text-lg placeholder:text-primary_blue"
+            className="w-[calc(50%-20px)] placeholder:font-semibold placeholder:lg:text-lg placeholder:text-primary_blue"
             placeholder="22"
           />
         </div>
@@ -139,7 +139,7 @@ const Form = () => {
             type="password"
             autoComplete="off"
             placeholder="......"
-            className="w-full placeholder:font-semibold xl:placeholder:text-[83px] placeholder:text-primary_blue"
+            className="w-full placeholder:font-semibold xl:placeholder:text-[83px] placeholder:text-lg placeholder:text-primary_blue"
             trailingIcon={
               <img
                 src={Dots}

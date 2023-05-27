@@ -11,7 +11,7 @@ import Text from "@/ui/text/text";
 }
 const PaymentContainer = () => {
   return (
-    <section className="xl:w-[27%] w-full h-full lg:pt-[86px] pt-32">
+    <section className="xl:w-[27%] w-full h-full lg:pb-0 pb-8 lg:pt-0 pt-14">
       <div className="w-full bg-card_container_bg lg:h-[531px] rounded-[18px]">
         {/* Card and purchased items wrapper */}
         <div className="w-full pb-8">
